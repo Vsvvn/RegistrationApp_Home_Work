@@ -1,5 +1,6 @@
 package app.registration.dto;
 
+
 public class Users {
 
     private String login;
