@@ -1,25 +1,12 @@
 package app.registration.service;
-import app.registration.dto.Users;
-import org.springframework.stereotype.Service;
-import java.util.List;
-import java.util.Optional;
 
-@Service
-public class UserService {
+import app.registration.dto.Login;
+import app.registration.dto.User;
 
-    private final UserService userService;
+public interface UserService {
 
-    public UserService(UserService userService) {
-        this.userService = userService;
-    }
+    int register(User user);
 
-
-    public List<Users> getAll() {
-        return userService.getAll();
-    }
-
-    public Optional<Users> addUser(Users users) {
-        return userService.addUser(users);
-    }
-
+    User validateUser(Login login);
 }
+
