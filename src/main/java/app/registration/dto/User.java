@@ -29,7 +29,6 @@ public class User {
     }
 
     public void setUsername(String username) {
-        System.out.println("username: " + username);
         this.username = username;
     }
 
@@ -46,7 +45,6 @@ public class User {
     }
 
     public void setFirstname(String firstname) {
-        System.out.println("firstname: " + firstname);
         this.firstname = firstname;
     }
 
@@ -55,7 +53,6 @@ public class User {
     }
 
     public void setLastname(String lastname) {
-        System.out.println("lastname: " + lastname);
         this.lastname = lastname;
     }
 
