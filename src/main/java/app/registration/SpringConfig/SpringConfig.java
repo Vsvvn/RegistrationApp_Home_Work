@@ -1,4 +1,4 @@
-package app.registration;
+package app.registration.SpringConfig;
 
 
 import org.springframework.context.ApplicationContext;
